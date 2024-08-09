@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #ccc; /* Add a border for the frame */
+    border-radius: 15px; /* Round the corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    max-width: 300px; /* Optional: set a maximum width */
+    width: 100%; /* Ensure the container is responsive */
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#startStopBtn:hover {
+    background-color: #45a049;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #d32f2f;
+}
+
+#lapBtn {
+    background-color: #2196F3;
+    color: white;
+}
+
+#lapBtn:hover {
+    background-color: #1976d2;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
